@@ -37,13 +37,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathHazırMetotları", "Mat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrtalamaSayaci", "OrtalamaSayaci\OrtalamaSayaci.csproj", "{08299F67-F617-4777-A232-9D26499E51E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarihHazırMetotlar", "TarihHazırMetotlar\TarihHazırMetotlar.csproj", "{AB11DD1C-A123-42C6-BC4E-DECF1A65CC71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarihHazırMetotlar", "TarihHazırMetotlar\TarihHazırMetotlar.csproj", "{AB11DD1C-A123-42C6-BC4E-DECF1A65CC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{95C8F241-1A46-430C-82A0-78FFEBD0B197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{95C8F241-1A46-430C-82A0-78FFEBD0B197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametreliMetotlar", "ParametreliMetotlar\ParametreliMetotlar.csproj", "{BA3F2A20-81D6-44C7-AFA0-2CE8FE6CCADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParametreliMetotlar", "ParametreliMetotlar\ParametreliMetotlar.csproj", "{BA3F2A20-81D6-44C7-AFA0-2CE8FE6CCADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeriyeDegerDondurenMetotlar", "GeriyeDegerDondurenMetotlar\GeriyeDegerDondurenMetotlar.csproj", "{B0F813D5-50DA-49CE-AD27-9FADF30F7F4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeriyeDegerDondurenMetotlar", "GeriyeDegerDondurenMetotlar\GeriyeDegerDondurenMetotlar.csproj", "{B0F813D5-50DA-49CE-AD27-9FADF30F7F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar2", "Metotlar2\Metotlar2.csproj", "{0C387C86-8410-4B4F-9EA6-9677F5D427BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotOverloading", "MetotOverloading\MetotOverloading.csproj", "{53A1BD4C-D85E-4E65-ABA6-F8D376A372FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotOverload2", "MetotOverload2\MetotOverload2.csproj", "{E4D764C4-7FFA-44C9-905A-D73BFA5E3BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotRefOutParams", "MetotRefOutParams\MetotRefOutParams.csproj", "{42A9329E-0EC4-4FFE-AD45-3256FEE7F9D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +143,22 @@ Global
 		{B0F813D5-50DA-49CE-AD27-9FADF30F7F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F813D5-50DA-49CE-AD27-9FADF30F7F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F813D5-50DA-49CE-AD27-9FADF30F7F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C387C86-8410-4B4F-9EA6-9677F5D427BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C387C86-8410-4B4F-9EA6-9677F5D427BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C387C86-8410-4B4F-9EA6-9677F5D427BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C387C86-8410-4B4F-9EA6-9677F5D427BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A1BD4C-D85E-4E65-ABA6-F8D376A372FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A1BD4C-D85E-4E65-ABA6-F8D376A372FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A1BD4C-D85E-4E65-ABA6-F8D376A372FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A1BD4C-D85E-4E65-ABA6-F8D376A372FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D764C4-7FFA-44C9-905A-D73BFA5E3BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D764C4-7FFA-44C9-905A-D73BFA5E3BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D764C4-7FFA-44C9-905A-D73BFA5E3BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D764C4-7FFA-44C9-905A-D73BFA5E3BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A9329E-0EC4-4FFE-AD45-3256FEE7F9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A9329E-0EC4-4FFE-AD45-3256FEE7F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A9329E-0EC4-4FFE-AD45-3256FEE7F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A9329E-0EC4-4FFE-AD45-3256FEE7F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
